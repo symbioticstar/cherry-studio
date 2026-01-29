@@ -335,7 +335,7 @@
     },
     "authHeaderText": "Utiliser dans l'en-tête d'autorisation :",
     "configuration": "Configuration",
-    "description": "Expose les capacités IA de Cherry Studio via des APIs HTTP compatibles OpenAI",
+    "description": "Expose les capacités IA de Xerry Studio via des APIs HTTP compatibles OpenAI",
     "documentation": {
       "title": "Documentation API"
     },
@@ -3163,7 +3163,7 @@
           },
           "description": {
             "0": "L'assistant de sélection de texte a besoin de l'autorisation de « <strong>fonctionnalités d'accessibilité</strong> » pour fonctionner correctement.",
-            "1": "Veuillez cliquer sur « <strong>aller aux paramètres</strong> », puis dans la fenêtre contextuelle de demande d'autorisation qui apparaîtra ensuite, cliquez sur le bouton « <strong>ouvrir les paramètres système</strong> », recherchez ensuite « <strong>Cherry Studio</strong> » dans la liste des applications qui suit, puis activez l'interrupteur d'autorisation.",
+            "1": "Veuillez cliquer sur « <strong>aller aux paramètres</strong> », puis dans la fenêtre contextuelle de demande d'autorisation qui apparaîtra ensuite, cliquez sur le bouton « <strong>ouvrir les paramètres système</strong> », recherchez ensuite « <strong>Xerry Studio</strong> » dans la liste des applications qui suit, puis activez l'interrupteur d'autorisation.",
             "2": "Une fois la configuration terminée, veuillez réactiver l'assistant de sélection de texte."
           },
           "title": "Autorisations d'accessibilité"
@@ -3175,7 +3175,7 @@
         "title": "Liste de sélection des applications",
         "user_tips": {
           "mac": "Veuillez saisir l'ID de bundle de l'application, un par ligne, sans sensibilité à la casse, correspondance floue possible. Par exemple : com.google.Chrome, com.apple.mail, etc.",
-          "windows": "Veuillez saisir le nom du fichier exécutable de l'application, un par ligne, sans sensibilité à la casse, correspondance floue possible. Par exemple : chrome.exe, weixin.exe, Cherry Studio.exe, etc."
+          "windows": "Veuillez saisir le nom du fichier exécutable de l'application, un par ligne, sans sensibilité à la casse, correspondance floue possible. Par exemple : chrome.exe, weixin.exe, Xerry Studio.exe, etc."
         }
       },
       "search_modal": {
@@ -3428,7 +3428,7 @@
         "lan": {
           "connected": "Connecté",
           "connection_failed": "Échec de la connexion",
-          "content": "Assurez-vous que l'ordinateur et le téléphone sont connectés au même réseau pour utiliser le transfert en réseau local. Ouvrez l'application Cherry Studio et scannez ce code QR.",
+          "content": "Assurez-vous que l'ordinateur et le téléphone sont connectés au même réseau pour utiliser le transfert en réseau local. Ouvrez l'application Xerry Studio et scannez ce code QR.",
           "device_list_title": "Périphériques réseau locaux",
           "discovered_devices": "Appareils découverts",
           "error": {
@@ -3454,14 +3454,14 @@
             "test_message_received": "Pong reçu de {{device}}",
             "test_message_sent": "Envoyé la charge utile de test hello world"
           },
-          "idle_hint": "Analyse en pause. Lancez l’analyse pour détecter les pairs Cherry Studio sur votre réseau local.",
+          "idle_hint": "Analyse en pause. Lancez l’analyse pour détecter les pairs Xerry Studio sur votre réseau local.",
           "ip_addresses": "Adresses IP",
           "last_seen": "Vu pour la dernière fois à {{time}}",
           "metadata": "Métadonnées",
-          "no_connection_warning": "Veuillez ouvrir le transfert LAN sur l'application mobile Cherry Studio.",
+          "no_connection_warning": "Veuillez ouvrir le transfert LAN sur l'application mobile Xerry Studio.",
           "no_devices": "Aucun pair LAN trouvé pour l'instant",
           "scan_devices": "Analyser les appareils",
-          "scanning_hint": "Analyse de votre réseau local à la recherche d’homologues Cherry Studio…",
+          "scanning_hint": "Analyse de votre réseau local à la recherche d’homologues Xerry Studio…",
           "send_file": "Envoyer le fichier",
           "status": {
             "completed": "Transfert terminé",
@@ -4243,7 +4243,7 @@
       },
       "oauth": {
         "callback": {
-          "message": "Vous pouvez fermer cette page et retourner à Cherry Studio",
+          "message": "Vous pouvez fermer cette page et retourner à Xerry Studio",
           "title": "Authentification Réussie"
         }
       },

@@ -46,7 +46,7 @@
 
 ### 手动触发指南
 
-1. 进入 Cherry Studio 仓库的 GitHub **Actions** 页面，选择 **Update App Upgrade Config** 工作流。
+1. 进入 Xerry Studio 仓库的 GitHub **Actions** 页面，选择 **Update App Upgrade Config** 工作流。
 2. 点击 **Run workflow**，保持默认分支（通常为 `main`），填写 `tag`（如 `v2.1.0`）。  
 3. 只有在 tag 带 `-beta`/`-rc` 后缀时才勾选 `is_prerelease`，稳定版保持默认。  
 4. 启动运行并等待完成，随后到 `x-files/app-upgrade-config` 分支的 PR 查看 `app-upgrade-config.json` 的变更并在验证后合并。

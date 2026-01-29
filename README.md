@@ -61,13 +61,13 @@
  <a href="https://www.producthunt.com/posts/cherry-studio?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cherry&#0045;studio" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=496640&theme=light" alt="Cherry&#0032;Studio - AI&#0032;Chatbots&#0044;&#0032;AI&#0032;Desktop&#0032;Client | Product Hunt" width="220" height="55" /></a>
 </div>
 
-# 🍒 Cherry Studio
+# 🍒 Xerry Studio
 
-Cherry Studio is a desktop client that supports multiple LLM providers, available on Windows, Mac and Linux.
+Xerry Studio is a desktop client that supports multiple LLM providers, available on Windows, Mac and Linux.
 
 👏 Join [Telegram Group](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQ Group(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
-❤️ Like Cherry Studio? Give it a star 🌟 or [Sponsor](docs/zh/guides/sponsor.md) to support the development!
+❤️ Like Xerry Studio? Give it a star 🌟 or [Sponsor](docs/zh/guides/sponsor.md) to support the development!
 
 # 🌠 Screenshot
 
@@ -165,7 +165,7 @@ Welcome PR for more themes
 
 # 🤝 Contributing
 
-We welcome contributions to Cherry Studio! Here are some ways you can contribute:
+We welcome contributions to Xerry Studio! Here are some ways you can contribute:
 
 1. **Contribute Code**: Develop new features or optimize existing code.
 2. **Fix Bugs**: Submit fixes for any bugs you find.
@@ -173,7 +173,7 @@ We welcome contributions to Cherry Studio! Here are some ways you can contribute
 4. **Product Design**: Participate in design discussions.
 5. **Write Documentation**: Improve user manuals and guides.
 6. **Community Engagement**: Join discussions and help users.
-7. **Promote Usage**: Spread the word about Cherry Studio.
+7. **Promote Usage**: Spread the word about Xerry Studio.
 
 Refer to the [Branching Strategy](docs/en/guides/branching-strategy.md) for contribution guidelines
 
@@ -190,9 +190,9 @@ Thank you for your support and contributions!
 
 # 🔧 Developer Co-creation Program
 
-We are launching the Cherry Studio Developer Co-creation Program to foster a healthy and positive-feedback loop within the open-source ecosystem. We believe that great software is built collaboratively, and every merged pull request breathes new life into the project.
+We are launching the Xerry Studio Developer Co-creation Program to foster a healthy and positive-feedback loop within the open-source ecosystem. We believe that great software is built collaboratively, and every merged pull request breathes new life into the project.
 
-We sincerely invite you to join our ranks of contributors and shape the future of Cherry Studio with us.
+We sincerely invite you to join our ranks of contributors and shape the future of Xerry Studio with us.
 
 ## Contributor Rewards Program
 
@@ -200,7 +200,7 @@ To give back to our core contributors and create a virtuous cycle, we have estab
 
 **The inaugural tracking period for this program will be Q3 2025 (July, August, September). Rewards for this cycle will be distributed on October 1st.**
 
-Within any tracking period (e.g., July 1st to September 30th for the first cycle), any developer who contributes more than **30 meaningful commits** to any of Cherry Studio's open-source projects on GitHub will be eligible for the following benefits:
+Within any tracking period (e.g., July 1st to September 30th for the first cycle), any developer who contributes more than **30 meaningful commits** to any of Xerry Studio's open-source projects on GitHub will be eligible for the following benefits:
 
 - **Cursor Subscription Sponsorship**: Receive a **$70 USD** credit or reimbursement for your [Cursor](https://cursor.sh/) subscription, making AI your most efficient coding partner.
 - **Unlimited Model Access**: Get **unlimited** API calls for the **DeepSeek** and **Qwen** models.
@@ -208,7 +208,7 @@ Within any tracking period (e.g., July 1st to September 30th for the first cycle
 
 ## Growing Together & Future Plans
 
-A vibrant community is the driving force behind any sustainable open-source project. As Cherry Studio grows, so will our rewards program. We are committed to continuously aligning our benefits with the best-in-class tools and resources in the industry. This ensures our core contributors receive meaningful support, creating a positive cycle where developers, the community, and the project grow together.
+A vibrant community is the driving force behind any sustainable open-source project. As Xerry Studio grows, so will our rewards program. We are committed to continuously aligning our benefits with the best-in-class tools and resources in the industry. This ensures our core contributors receive meaningful support, creating a positive cycle where developers, the community, and the project grow together.
 
 **Moving forward, the project will also embrace an increasingly open stance to give back to the entire open-source community.**
 
@@ -224,7 +224,7 @@ Let's build together.
 
 # 🏢 Enterprise Edition
 
-Building on the Community Edition, we are proud to introduce **Cherry Studio Enterprise Edition**—a privately-deployable AI productivity and management platform designed for modern teams and enterprises.
+Building on the Community Edition, we are proud to introduce **Xerry Studio Enterprise Edition**—a privately-deployable AI productivity and management platform designed for modern teams and enterprises.
 
 The Enterprise Edition addresses core challenges in team collaboration by centralizing the management of AI resources, knowledge, and data. It empowers organizations to enhance efficiency, foster innovation, and ensure compliance, all while maintaining 100% control over their data in a secure environment.
 
@@ -238,7 +238,7 @@ The Enterprise Edition addresses core challenges in team collaboration by centra
 
 ## ✨ Online Demo
 
-**🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
+**🔗 [Xerry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
 ## Version Comparison
 
@@ -251,7 +251,7 @@ The Enterprise Edition addresses core challenges in team collaboration by centra
 
 ## Get the Enterprise Edition
 
-We believe the Enterprise Edition will become your team's AI productivity engine. If you are interested in Cherry Studio Enterprise Edition and would like to learn more, request a quote, or schedule a demo, please feel free to contact us.
+We believe the Enterprise Edition will become your team's AI productivity engine. If you are interested in Xerry Studio Enterprise Edition and would like to learn more, request a quote, or schedule a demo, please feel free to contact us.
 
 - **For Business Inquiries & Purchasing**:
   **📧 [bd@cherry-ai.com](mailto:bd@cherry-ai.com)**
@@ -289,9 +289,9 @@ We believe the Enterprise Edition will become your team's AI productivity engine
 
 # 📜 License
 
-The Cherry Studio Community Edition is governed by the standard GNU Affero General Public License v3.0 (AGPL-3.0), available at https://www.gnu.org/licenses/agpl-3.0.html.
+The Xerry Studio Community Edition is governed by the standard GNU Affero General Public License v3.0 (AGPL-3.0), available at https://www.gnu.org/licenses/agpl-3.0.html.
 
-Use of the Cherry Studio Community Edition for commercial purposes is permitted, subject to full compliance with the terms and conditions of the AGPL-3.0 license.
+Use of the Xerry Studio Community Edition for commercial purposes is permitted, subject to full compliance with the terms and conditions of the AGPL-3.0 license.
 
 Should you require a commercial license that provides an exemption from the AGPL-3.0 requirements, please contact us at bd@cherry-ai.com.
 

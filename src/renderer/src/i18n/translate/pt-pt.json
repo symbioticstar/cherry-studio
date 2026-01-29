@@ -335,7 +335,7 @@
     },
     "authHeaderText": "Usar no cabeçalho de autorização:",
     "configuration": "Configuração",
-    "description": "Expõe as capacidades de IA do Cherry Studio através de APIs HTTP compatíveis com OpenAI",
+    "description": "Expõe as capacidades de IA do Xerry Studio através de APIs HTTP compatíveis com OpenAI",
     "documentation": {
       "title": "Documentação API"
     },
@@ -3163,7 +3163,7 @@
           },
           "description": {
             "0": "O Assistente de Seleção de Texto precisa da permissão de «<strong>Funcionalidades de Acesso</strong>» para funcionar corretamente.",
-            "1": "Clique em «<strong>Ir para Configurações</strong>» e, na janela pop-up de solicitação de permissão que aparecerá em seguida, clique no botão «<strong>Abrir Configurações do Sistema</strong>», depois localize «<strong>Cherry Studio</strong>» na lista de aplicativos e ative o interruptor de permissão.",
+            "1": "Clique em «<strong>Ir para Configurações</strong>» e, na janela pop-up de solicitação de permissão que aparecerá em seguida, clique no botão «<strong>Abrir Configurações do Sistema</strong>», depois localize «<strong>Xerry Studio</strong>» na lista de aplicativos e ative o interruptor de permissão.",
             "2": "Após concluir a configuração, ative novamente o Assistente de Seleção de Texto."
           },
           "title": "Permissão de Acessibilidade"
@@ -3175,7 +3175,7 @@
         "title": "Lista de Seleção de Aplicativos",
         "user_tips": {
           "mac": "Insira o Bundle ID do aplicativo, um por linha, sem distinção entre maiúsculas e minúsculas, correspondência parcial permitida. Por exemplo: com.google.Chrome, com.apple.mail, etc.",
-          "windows": "Insira o nome do arquivo executável do aplicativo, um por linha, sem distinção entre maiúsculas e minúsculas, correspondência parcial permitida. Por exemplo: chrome.exe, weixin.exe, Cherry Studio.exe, etc."
+          "windows": "Insira o nome do arquivo executável do aplicativo, um por linha, sem distinção entre maiúsculas e minúsculas, correspondência parcial permitida. Por exemplo: chrome.exe, weixin.exe, Xerry Studio.exe, etc."
         }
       },
       "search_modal": {
@@ -3428,7 +3428,7 @@
         "lan": {
           "connected": "Conectado",
           "connection_failed": "Falha na conexão",
-          "content": "Certifique-se de que o computador e o telefone estejam na mesma rede para usar a transferência via LAN. Abra o aplicativo Cherry Studio e escaneie este código QR.",
+          "content": "Certifique-se de que o computador e o telefone estejam na mesma rede para usar a transferência via LAN. Abra o aplicativo Xerry Studio e escaneie este código QR.",
           "device_list_title": "Dispositivos de rede local",
           "discovered_devices": "Dispositivos descobertos",
           "error": {
@@ -3454,14 +3454,14 @@
             "test_message_received": "Recebido pong de {{device}}",
             "test_message_sent": "Enviou payload de teste hello world"
           },
-          "idle_hint": "Digitalização pausada. Inicie a digitalização para encontrar pares do Cherry Studio na sua rede local.",
+          "idle_hint": "Digitalização pausada. Inicie a digitalização para encontrar pares do Xerry Studio na sua rede local.",
           "ip_addresses": "Endereços IP",
           "last_seen": "Visto pela última vez às {{time}}",
           "metadata": "Metadados",
-          "no_connection_warning": "Por favor, abra a Transferência LAN no Cherry Studio mobile",
+          "no_connection_warning": "Por favor, abra a Transferência LAN no Xerry Studio mobile",
           "no_devices": "Ainda não foram encontrados pares de LAN.",
           "scan_devices": "Escaneie dispositivos",
-          "scanning_hint": "Escaneando sua rede local por pares do Cherry Studio...",
+          "scanning_hint": "Escaneando sua rede local por pares do Xerry Studio...",
           "send_file": "Enviar Arquivo",
           "status": {
             "completed": "Transferência concluída",
@@ -4243,7 +4243,7 @@
       },
       "oauth": {
         "callback": {
-          "message": "Você pode fechar esta página e retornar ao Cherry Studio",
+          "message": "Você pode fechar esta página e retornar ao Xerry Studio",
           "title": "Autenticação Bem-Sucedida"
         }
       },

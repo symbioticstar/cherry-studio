@@ -46,7 +46,7 @@ The `x-files/app-upgrade-config/app-upgrade-config.json` file is synchronized by
 
 ### Manual Trigger Guide
 
-1. Open the Cherry Studio repository on GitHub → **Actions** tab → select **Update App Upgrade Config**.
+1. Open the Xerry Studio repository on GitHub → **Actions** tab → select **Update App Upgrade Config**.
 2. Click **Run workflow**, choose the default branch (usually `main`), and fill in the `tag` input (e.g., `v2.1.0`).  
 3. Toggle `is_prerelease` only when the tag carries a prerelease suffix (`-beta`, `-rc`). Leave it unchecked for stable releases.  
 4. Start the run and wait for it to finish. Check the generated PR in the `x-files/app-upgrade-config` branch, verify the diff in `app-upgrade-config.json`, and merge once validated.

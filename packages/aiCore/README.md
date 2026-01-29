@@ -1,6 +1,6 @@
 # @cherrystudio/ai-core
 
-Cherry Studio AI Core 是一个基于 Vercel AI SDK 的统一 AI Provider 接口包，为 AI 应用提供强大的抽象层和插件化架构。
+Xerry Studio AI Core 是一个基于 Vercel AI SDK 的统一 AI Provider 接口包，为 AI 应用提供强大的抽象层和插件化架构。
 
 ## ✨ 核心亮点
 
@@ -355,7 +355,7 @@ await client.streamObject({
 
 #### 与插件系统配合使用
 
-更强大的是，你还可以将自定义注册表与 Cherry Studio 的插件系统结合使用：
+更强大的是，你还可以将自定义注册表与 Xerry Studio 的插件系统结合使用：
 
 ```typescript
 import { PluginEnabledAiClient } from '@cherrystudio/ai-core'
@@ -414,7 +414,7 @@ await client.streamObject({
 ## 📚 相关资源
 
 - [Vercel AI SDK 文档](https://ai-sdk.dev/)
-- [Cherry Studio 项目](https://github.com/CherryHQ/cherry-studio)
+- [Xerry Studio 项目](https://github.com/CherryHQ/cherry-studio)
 - [AI SDK Providers](https://ai-sdk.dev/providers/ai-sdk-providers)
 
 ## 未来版本
@@ -430,4 +430,4 @@ MIT License - 详见 [LICENSE](https://github.com/CherryHQ/cherry-studio/blob/ma
 
 ---
 
-**Cherry Studio AI Core** - 让 AI 开发更简单、更强大、更灵活 🚀
+**Xerry Studio AI Core** - 让 AI 开发更简单、更强大、更灵活 🚀

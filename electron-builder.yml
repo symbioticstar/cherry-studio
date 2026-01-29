@@ -1,5 +1,5 @@
 appId: com.kangfenmao.CherryStudio
-productName: Cherry Studio
+productName: Xerry Studio
 electronLanguages:
   - zh-CN
   - zh-TW
@@ -14,7 +14,7 @@ directories:
   buildResources: build
 
 protocols:
-  - name: Cherry Studio
+  - name: Xerry Studio
     schemes:
       - cherrystudio
 files:
@@ -79,7 +79,7 @@ extraResources:
     to: "claude-code-plugins"
 
 win:
-  executableName: Cherry Studio
+  executableName: Xerry Studio
   artifactName: ${productName}-${version}-${arch}-setup.${ext}
   target:
     - target: nsis
@@ -125,7 +125,7 @@ linux:
   category: Utility
   desktop:
     entry:
-      Name: Cherry Studio
+      Name: Xerry Studio
       StartupWMClass: CherryStudio
   mimeTypes:
     - x-scheme-handler/cherrystudio
@@ -145,7 +145,7 @@ artifactBuildCompleted: scripts/artifact-build-completed.js
 releaseInfo:
   releaseNotes: |
     <!--LANG:en-->
-    Cherry Studio 1.7.14 - New Features & Improvements
+    Xerry Studio 1.7.14 - New Features & Improvements
 
     ✨ New Features
     - [Notes] Add export to Word document functionality
@@ -174,7 +174,7 @@ releaseInfo:
     - [Chat] Fix image enhancement model conversation history
 
     <!--LANG:zh-CN-->
-    Cherry Studio 1.7.14 - 新功能与改进
+    Xerry Studio 1.7.14 - 新功能与改进
 
     ✨ 新功能
     - [笔记] 支持导出为 Word 文档

@@ -1,6 +1,6 @@
 # Hub MCP Server
 
-A built-in MCP server that aggregates all active MCP servers in Cherry Studio and exposes them through `search` and `exec` tools.
+A built-in MCP server that aggregates all active MCP servers in Xerry Studio and exposes them through `search` and `exec` tools.
 
 ## Overview
 
@@ -8,7 +8,7 @@ The Hub server enables LLMs to discover and call tools from all active MCP serve
 
 ## Auto Mode Integration
 
-The Hub server is the core component of Cherry Studio's **Auto MCP Mode**. When an assistant is set to Auto mode:
+The Hub server is the core component of Xerry Studio's **Auto MCP Mode**. When an assistant is set to Auto mode:
 
 1. **Automatic Injection**: The Hub server is automatically injected as the only MCP server for the assistant
 2. **System Prompt**: A specialized system prompt (`HUB_MODE_SYSTEM_PROMPT`) is appended to guide the LLM on how to use the `search` and `exec` tools
@@ -16,7 +16,7 @@ The Hub server is the core component of Cherry Studio's **Auto MCP Mode**. When 
 
 ### MCP Modes
 
-Cherry Studio supports three MCP modes per assistant:
+Xerry Studio supports three MCP modes per assistant:
 
 | Mode | Description | Tools Available |
 |------|-------------|-----------------|
@@ -210,4 +210,4 @@ HubServer
 | `tool-registry.ts` | In-memory tool cache with TTL |
 | `search.ts` | Keyword-based tool search |
 | `runtime.ts` | JavaScript code execution engine |
-| `mcp-bridge.ts` | Bridge to Cherry Studio's MCPService |
+| `mcp-bridge.ts` | Bridge to Xerry Studio's MCPService |
