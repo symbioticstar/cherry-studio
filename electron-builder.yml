@@ -101,6 +101,7 @@ portable:
   artifactName: ${productName}-${version}-${arch}-portable.${ext}
   buildUniversalInstaller: false
 mac:
+  identity: null
   entitlementsInherit: build/entitlements.mac.plist
   notarize: false
   artifactName: ${productName}-${version}-${arch}.${ext}
