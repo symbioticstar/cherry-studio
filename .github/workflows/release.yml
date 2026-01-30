@@ -136,6 +136,39 @@ jobs:
           RENDERER_VITE_AIHUBMIX_SECRET: ${{ secrets.RENDERER_VITE_AIHUBMIX_SECRET }}
           RENDERER_VITE_PPIO_APP_SECRET: ${{ secrets.RENDERER_VITE_PPIO_APP_SECRET }}
 
+      - name: Upload to Backblaze B2
+        if: success()
+        shell: bash
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.B2_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.B2_APPLICATION_KEY }}
+          B2_BUCKET_NAME: ${{ secrets.B2_BUCKET_NAME }}
+          B2_ENDPOINT: https://s3.us-west-000.backblazeb2.com
+        run: |
+          # Install AWS CLI if not present
+          if ! command -v aws &> /dev/null; then
+            if [ "${{ matrix.os }}" = "ubuntu-latest" ]; then
+              sudo apt-get update && sudo apt-get install -y awscli
+            elif [ "${{ matrix.os }}" = "macos-latest" ]; then
+              brew install awscli
+            elif [ "${{ matrix.os }}" = "windows-latest" ]; then
+              choco install awscli -y
+            fi
+          fi
+
+          # Get tag version
+          TAG="${{ steps.get-tag.outputs.tag }}"
+
+          # Upload files to B2
+          for file in dist/*.{exe,zip,dmg,AppImage,snap,deb,rpm,tar.gz}; do
+            if [ -f "$file" ]; then
+              echo "Uploading $file to Backblaze B2..."
+              aws s3 cp "$file" "s3://${B2_BUCKET_NAME}/${TAG}/$(basename $file)" \
+                --endpoint-url="${B2_ENDPOINT}" \
+                --acl public-read || echo "Failed to upload $file"
+            fi
+          done
+
       - name: Release
         uses: ncipollo/release-action@v1
         with:
