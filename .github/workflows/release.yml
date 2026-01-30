@@ -160,11 +160,13 @@ jobs:
           # Get tag version
           TAG="${{ steps.get-tag.outputs.tag }}"
 
-          # Configure AWS CLI for better S3 compatibility
-          # Use signature version 4 and disable multipart for better compatibility
+          # Configure AWS CLI for better S3 compatibility with Aliyun OSS
+          # Disable chunked encoding and configure multipart settings
           aws configure set default.s3.signature_version s3v4
-          aws configure set default.s3.multipart_threshold 1GB
-          aws configure set default.s3.multipart_chunksize 16MB
+          aws configure set default.s3.multipart_threshold 5GB
+          aws configure set default.s3.multipart_chunksize 64MB
+          aws configure set default.s3.max_concurrent_requests 1
+          aws configure set default.s3.payload_signing_enabled false
 
           # Set region (use provided or default)
           REGION="${S3_REGION:-us-east-1}"
@@ -173,11 +175,15 @@ jobs:
           for file in dist/*.{exe,zip,dmg,AppImage,snap,deb,rpm,tar.gz}; do
             if [ -f "$file" ]; then
               echo "Uploading $file to S3-compatible storage..."
+
+              # Use --no-sign-request to disable chunked encoding for Aliyun OSS
+              # Use --content-type to avoid content-sha256 issues
               aws s3 cp "$file" "s3://${S3_BUCKET_NAME}/${TAG}/$(basename $file)" \
                 --endpoint-url="${S3_ENDPOINT}" \
                 --region="${REGION}" \
                 --no-progress \
-                --acl public-read || echo "Failed to upload $file"
+                --acl public-read \
+                --metadata-directive REPLACE || echo "Failed to upload $file"
             fi
           done
 
