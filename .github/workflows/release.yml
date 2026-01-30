@@ -160,11 +160,14 @@ jobs:
           # Get tag version
           TAG="${{ steps.get-tag.outputs.tag }}"
 
-          # Set region flag if provided
-          REGION_FLAG=""
-          if [ -n "$S3_REGION" ]; then
-            REGION_FLAG="--region $S3_REGION"
-          fi
+          # Configure AWS CLI for better S3 compatibility
+          # Use signature version 4 and disable multipart for better compatibility
+          aws configure set default.s3.signature_version s3v4
+          aws configure set default.s3.multipart_threshold 1GB
+          aws configure set default.s3.multipart_chunksize 16MB
+
+          # Set region (use provided or default)
+          REGION="${S3_REGION:-us-east-1}"
 
           # Upload files to S3-compatible storage
           for file in dist/*.{exe,zip,dmg,AppImage,snap,deb,rpm,tar.gz}; do
@@ -172,7 +175,8 @@ jobs:
               echo "Uploading $file to S3-compatible storage..."
               aws s3 cp "$file" "s3://${S3_BUCKET_NAME}/${TAG}/$(basename $file)" \
                 --endpoint-url="${S3_ENDPOINT}" \
-                $REGION_FLAG \
+                --region="${REGION}" \
+                --no-progress \
                 --acl public-read || echo "Failed to upload $file"
             fi
           done
